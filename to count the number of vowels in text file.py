@@ -1,4 +1,4 @@
-fob=open("text.txt",'r')
+fob=open("text.txt",'r') #use your path
 count=0
 str1=fob.readlines()
 for word in str1:
