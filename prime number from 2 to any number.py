@@ -6,7 +6,11 @@ def prime(x):
     else:
         print(x)
             
-n=int(input("Enter your lower limit:: "))
-for i in range(2,n+1):
-    prime(i)
-print("Thank you!!!")
+while True:
+    n=int(input("Enter your lower limit:: "))
+    for i in range(2,n+1):
+        prime(i)
+    print("Thank you!!!")
+    op=input("To conitnue enter y ,To exit enter n::::  ")
+    if op=="n":
+        break
