@@ -1,6 +1,6 @@
 import pickle
 def addemployee():
-    f= open("employee.bin","wb")
+    f= open("employee.bin","wb") #opens a binary file in your computer
     l=[]
     while True:
         eid=int(input('Enter the employee id::  '))
