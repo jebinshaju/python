@@ -42,6 +42,8 @@ while True:
     if g=="a":
         addemployee()
     elif g=="d":
+        displayall()
+    elif g=="p":
         display()
     else:
         break
